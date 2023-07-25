@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(31, 138, 112);
+    font-family: customFont;
+}
+
+@font-face{
+    font-family: customFont;
+    src: url(../Fonts/Ring\ of\ Kerry.otf)
+}
+
+header h1{
+    text-align: center;
+    font-family: customFont;
+    font-size: 3rem;
+}
+
+#logoleft{
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+#logoright{
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.spotify{
+    width: 50%;
+    margin:0 auto;
+}
+
+.home-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font: 16px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+
+.intro{ 
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: rgb(24, 107, 86);
+}
+
+figure img{
+    margin: 0 auto;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    flex-shrink: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font: 16px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.lineup{
+    width: 50%;
+    background-color: rgb(24, 107, 86);
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.image{
+    box-shadow: 5px 3px 10px 5px rgb(24, 107, 86);
+}
+
+table{
+    border: 5px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%
+}
+
+thead{
+    background-color:rgb(24, 107, 86);
+    border-bottom: 5px solid;
+}
+
+th{
+    padding: 1rem;
+}
+
+td{
+    padding: 1rem;
+}
+
+.book-tix{
+    background-color: rgb(24,107,86);
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 45%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.FAQ{
+    background-color: rgb(24,107,86);
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 75%;
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 800px){
+    row{
+        flex-direction: column;
+    }
+
+    div{
+        margin: 0 auto;
+        align-content: center;
+    }
+}
+
+body{
+    background-color: black;
+    font-family: 'Press Start 2P', monospace;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+row{
+    display: flex;
+}
+
+.main{
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+#adventureSheet{
+    width: 20%;
+
+}
+
+#Dice{
+    width: 20%;
+}
+
+
+h2{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.item{
+    text-align: center;
+}
+
+.stat{
+    text-align: center;
+}
+
+.DiceRoll{
+    text-align: center;
+}
+
+.combat{
+    text-align: center;
+}
+
+form{
+    margin: 15px auto;
+}
+

@@ -1,0 +1,24 @@
+nav li{
+    float:left;
+    width: 32%;
+    background-color: rgb(36, 97, 82);
+    list-style-type: none;
+    text-align: center;
+    box-shadow: 0px 5px 5px rgb(24, 107, 86);
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+nav li:hover a:hover{
+    color: rgb(26, 188, 26);
+}
+
+nav li:hover ::after{
+    content: ' \2618';
+    color: rgb(26, 188, 26);
+}

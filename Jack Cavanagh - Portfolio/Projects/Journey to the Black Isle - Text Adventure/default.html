@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Isle Text Adventure</title>
+    <link href="Styles/styles.css" rel="stylesheet">
+    <script src="Scripts/scripts.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+
+</head>
+<body>
+  <header>
+    <h1>Journey To The Black Isle</h1>
+  </header>
+  <row>
+    <div id="adventureSheet">
+        <h2>Adventure Sheet</h2>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td id="name"> </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="2">Stats</th>
+            </tr>
+            <tr>
+                <td>Health</td>
+                <td class="stat" id="health"> 0 </td>
+            </tr>
+            <tr>
+                <td>Strength</td>
+                <td class="stat" id="strength"> 0 </td>
+            </tr>
+            <tr>
+                 <td>Luck</td>
+                <td class="stat" id="luck"> 0 </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="2">Inventory</th>
+            </tr>
+            <tr>
+                <td>Provisions</td>
+                <td> x 10 </td>
+            </tr>
+            <tr>
+                <td class="item" id="slot1" colspan="2">*Empty*</td>
+            </tr>
+            <tr>
+                <td class="item" id="slot2" colspan="2">*Empty*</td>
+            </tr>
+            <tr>
+                <td class="item" id="slot3" colspan="2">*Empty*</td>
+            </tr>
+            <tr>
+                <td class="item" id="slot4" colspan="2">*Empty*</td>
+            </tr>
+            <tr>
+                <td class="item" id="slot5" colspan="2">*Empty*</td>
+            </tr>
+                
+        </table>
+    </div>
+    <div class="main">
+        <img src="Images/Dragon.jpg" alt="pixel art Dragon" width="300" height="300">
+        <br>
+        <br>
+        <div id="main-text">
+            <p>Welcome Traveller. You are about to embark on an epic journey of danger, mystery and excitement.</p>
+            <p>Before you can begin your adventure, what is your name?</p>
+        </div>
+        <br>
+        <input type="text" id="input" for="input" onfocus="this.value=''">
+        <button type="button" id="submit">Submit</button>
+    </div>
+    <div id="Dice">
+        <h2>Dice Roll</h2>
+
+        <table>
+            <tr>
+                <td class="DiceRoll">One Die</td>
+            </tr>
+            <tr>
+                <td class="DiceRoll" id="one-roll-output">0</td>
+            </tr>
+            <tr>
+                <td class="DiceRoll">
+                    <button id="roll-one">Roll</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="DiceRoll">Two Dice</td>
+            </tr>
+            <tr>
+                <td class="DiceRoll" id="two-roll-output">0</td>
+            </tr>
+            <tr>
+                <td class="DiceRoll">
+                    <button id="roll-two">Roll</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h2>Battle</h2>
+        <table>
+            <tr>
+                <th class="combat" id="monsterName" colspan="2">Monster</th>
+            </tr>
+            <tr>
+                <td>Health</td>
+                <td id="combatstat1">0</td>
+            </tr>
+            <tr>
+                <td>Strength</td>
+                <td id="combatstat2">0</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th class="combat" colspan="2">Current Battle</th>
+            </tr>
+            <tr>
+                <td id="adventurerID">Adventurer</td>
+                <td id="adventurerAttack">0</td>
+            </tr>
+            <tr>
+                <td id="monsterID">Monster</td>
+                <td id="monsterAttack">0</td>
+            </tr>
+    </div>
+  </row>
+</body>
+</html>

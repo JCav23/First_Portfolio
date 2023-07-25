@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyre Tickets</title>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/nav.css">
+    <link rel="icon" type="image/x-icon" href="Images/Favicons/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <img id="logoleft" src="Images/Lyre.png" width="20" height="20" alt="Lyre Logo">
+        <h1>Tickets</h1>
+        <img id="logoright" src="Images/Lyre.png" width="20" height="20" alt="Lyre Logo">
+    </header>
+    <nav>
+        <ul>
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="./Lineup.html">Lineup</a></li>
+          <li><a href="./About.html">FAQ's</a></li>
+        </ul>
+      </nav>
+
+    <main>
+      <br>
+      <br>
+      <h1 class="heading">Packages & Pricing</h1>
+    </main>
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h2>Package</h2>
+            </th>
+            <th>
+              <h2>What's Included</h2>
+            </th>
+            <th>
+              <h2>Pricing</h2>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Bronze
+            </td>
+            <td>
+              3 Day Festival Ticket + Camping Access
+            </td>
+            <td>
+              £500.00
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Silver
+            </td>
+            <td>
+              3 Day Festival Ticket + Hotel Accomodation
+            </td>
+            <td>
+             £1100.00
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Gold
+            </td>
+            <td>
+              3 Day Festival Ticket + Private Villa
+            </td>
+            <td>
+              £1750.00
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Platinum
+            </td>
+            <td>
+              3 Day Festival Ticket + Private Villa + VIP Passes
+            </td>
+            <td>
+              £2500.00
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h1 class="heading">Bookings</h1>
+      <p class="heading">Please fill in the details below and a customer service representative will be in touch to confirm your booking and take payment</p>
+    </div>
+    <div class="book-tix">
+      <form method="post" action="lyrefestival@mail.com">
+        <label for="first-name">First Name</label>
+        <br>
+        <input type="text" id="first-name"  name="first-name">
+        <br>
+        <label for="last-name">Last Name</label>
+        <br>
+        <input type="text" id="last-name" name="last-name">
+        <br>
+        <label for="tickets">Number of Tickets</label>
+        <br>
+        <input type="number" id="tickets" name="tickets">
+        <br>
+        <label for="contact">Contact Number</label>
+        <br>
+        <input type="text" id="contact" name="contact">
+        <br>
+        <p>Ticket Package?</p>
+        <input type="radio" id="bronze" name="package" value="bronze">
+        <label for="bronze">Bronze</label>
+        <br>
+        <input type="radio" id="silver" name="package" value="silver">
+        <label for="silver">Silver</label>
+        <br>
+        <input type="radio" id="gold" name="package" value="gold">
+        <label for="gold">Gold</label>
+        <br>
+        <input type="radio" id="platinum" name="package" value="platinum">
+        <label for="platinum">Platinum</label>
+        <br>
+        <br>
+        <label for="requests">Additional Requests or Queries</label>
+        <br>
+        <textarea cols="40" rows="6" id="requests" name="requests"></textarea>
+        <br>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+</body>
+</html>

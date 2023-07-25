@@ -1,0 +1,13 @@
+body{
+    background-image: url(../Images/Craggy\ Island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#absolute{
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 40vw;
+    top: 40vh;
+}
